@@ -31,6 +31,10 @@
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
+
+
+
+
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>
@@ -50,6 +54,8 @@
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.do</url-pattern>
     </servlet-mapping>
+
+
 
 </web-app>
 
